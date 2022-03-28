@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "esbuild-dev ./src/index.ts --watch --supervise --commands"
+  },
+  "dependencies": {
+    "@types/luxon": "^2.3.1",
+    "axios": "^0.26.1",
+    "esbuild-dev": "^0.10.0",
+    "luxon": "^2.3.1",
+    "typescript": "^4.6.3"
+  }
+}
