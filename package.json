@@ -1,9 +1,13 @@
 {
+  "name": "notion-parser",
+  "version": "0.1.0",
+  "main": "build/index.js",
   "scripts": {
     "dev": "esbuild-dev ./src/index.ts --watch --supervise --commands"
   },
   "dependencies": {
     "@types/luxon": "^2.3.1",
+    "@types/node": "^17.0.23",
     "axios": "^0.26.1",
     "esbuild-dev": "^0.10.0",
     "luxon": "^2.3.1",
